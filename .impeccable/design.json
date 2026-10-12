@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-09T00:00:00Z",
+  "title": "Design System: Waterlight Group",
+  "extensions": {
+    "colorMeta": {
+      "bronze": { "role": "primary", "displayName": "Carved Bronze", "canonical": "#7e5c2e", "tonalRamp": ["#241608", "#3a2510", "#543719", "#6f4a22", "#8b5f2c", "#a87c40", "#c69c66", "#e3c79b"] },
+      "bronze-hi": { "role": "primary", "displayName": "Bronze Bevel", "canonical": "#a87c40", "tonalRamp": ["#241608", "#3a2510", "#543719", "#6f4a22", "#8b5f2c", "#a87c40", "#c69c66", "#e3c79b"] },
+      "bronze-lo": { "role": "primary", "displayName": "Bronze Recess", "canonical": "#543d1e", "tonalRamp": ["#1c1006", "#2e1d0c", "#543d1e", "#6f5a2c", "#8b7340", "#a88e5c", "#c6ac7c", "#e3cf9f"] },
+      "verdigris": { "role": "secondary", "displayName": "Verdigris Fitting", "canonical": "#4e6b57", "tonalRamp": ["#0b1712", "#132620", "#1d3830", "#2b4d40", "#3a6252", "#4e6b57", "#719384", "#a9c4b6"] },
+      "verdigris-2": { "role": "secondary", "displayName": "Verdigris Seat", "canonical": "#35503f", "tonalRamp": ["#08120d", "#0f1e16", "#183024", "#244634", "#35503f", "#4f6d59", "#75917d", "#a6bdaa"] },
+      "verdigris-hi": { "role": "secondary", "displayName": "Verdigris Live", "canonical": "#7c9c82", "tonalRamp": ["#16241b", "#22382a", "#32503c", "#47694f", "#5f8364", "#7c9c82", "#a3bda7", "#cadccc"] },
+      "stone": { "role": "neutral", "displayName": "Travertine Stone", "canonical": "#e6dcc6", "tonalRamp": ["#3d3524", "#5c5340", "#7d7259", "#9f9377", "#bcb096", "#cdbe9f", "#ded2b8", "#e6dcc6"] },
+      "stone-sediment": { "role": "neutral", "displayName": "Stone Sediment", "canonical": "#ded2b8", "tonalRamp": ["#3b3424", "#5a513f", "#7b7158", "#9d9175", "#bab094", "#d0c4a8", "#ded2b8", "#efe7d5"] },
+      "stone-bed": { "role": "neutral", "displayName": "Stone Bed", "canonical": "#cdbe9f", "tonalRamp": ["#372f1f", "#544b38", "#756a4f", "#978a68", "#b6a985", "#cdbe9f", "#e0d3b8", "#f0e7d3"] },
+      "stone-deep": { "role": "neutral", "displayName": "Stone Recess", "canonical": "#b9a982", "tonalRamp": ["#322a1b", "#4d442f", "#6d6244", "#8e815a", "#ab9c72", "#b9a982", "#d3c59f", "#e9dfc4"] },
+      "paper": { "role": "neutral", "displayName": "Limewash Paper", "canonical": "#f3edda", "tonalRamp": ["#3f3726", "#5e5541", "#80755b", "#a49879", "#c2b699", "#d9ccb0", "#e8dfc9", "#f3edda"] },
+      "carve": { "role": "neutral", "displayName": "Carved Ink", "canonical": "#2b2620", "tonalRamp": ["#0f0d0a", "#1b1814", "#2b2620", "#3a342b", "#4c443a", "#5d5447", "#6f6558", "#837768"] },
+      "carve-2": { "role": "neutral", "displayName": "Carved Ink Body", "canonical": "#3a342b", "tonalRamp": ["#12100b", "#1f1c15", "#2b2620", "#3a342b", "#4c443a", "#5d5447", "#6f6558", "#837768"] },
+      "carve-soft": { "role": "neutral", "displayName": "Carved Ink Soft", "canonical": "#4c443a", "tonalRamp": ["#151310", "#221e19", "#2f2a23", "#3d362d", "#4c443a", "#5d5447", "#6f6558", "#837768"] },
+      "night": { "role": "neutral", "displayName": "Night Quarry", "canonical": "#1b1916", "tonalRamp": ["#0b0a09", "#141210", "#1b1916", "#242220", "#2e2b28", "#3a3632", "#4a453f", "#5d574f"] },
+      "night-2": { "role": "neutral", "displayName": "Night Quarry Mid", "canonical": "#242220", "tonalRamp": ["#0d0c0b", "#151412", "#1b1916", "#242220", "#2e2b28", "#3a3632", "#4a453f", "#5d574f"] },
+      "night-3": { "role": "neutral", "displayName": "Night Quarry High", "canonical": "#302d29", "tonalRamp": ["#100f0e", "#191817", "#232120", "#302d29", "#3d3934", "#4a453f", "#5a544c", "#6d675d"] },
+      "night-ink": { "role": "neutral", "displayName": "Night Ink", "canonical": "#cabd9f", "tonalRamp": ["#3a342b", "#4c443a", "#5d5344", "#6f6352", "#837763", "#9a8d77", "#b6a88f", "#cabd9f"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero thesis and the largest section statements; epigraphic uppercase Forum." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles." },
+      "title": { "displayName": "Title", "purpose": "Card, tablet and editorial entry titles — a Forum voice inside the stone." },
+      "body": { "displayName": "Body", "purpose": "Running copy, 60–62ch measure." },
+      "label": { "displayName": "Label", "purpose": "Institutional labels: sector names, status, table heads, nav." }
+    },
+    "shadows": [
+      { "name": "pressed-plaque", "value": "inset 0 1px 0 rgba(255,236,200,.35), inset 0 -2px 4px rgba(20,12,4,.5), 0 2px 5px rgba(43,38,32,.3)", "purpose": "Bronze plaque actions — pressed into the stone." },
+      { "name": "pressed-plaque-hover", "value": "inset 0 1px 0 rgba(255,230,180,.7), inset 0 -2px 4px rgba(30,20,8,.45), 0 5px 12px rgba(43,38,32,.34)", "purpose": "Plaque lift on hover." },
+      { "name": "recessed-panel", "value": "inset 0 2px 6px rgba(43,38,32,.14), inset 0 1px 0 rgba(255,252,240,.6)", "purpose": "Cartouches and stone panels read as cut recall." },
+      { "name": "floating-slab", "value": "inset 0 1px 0 rgba(255,252,240,.7), 0 22px 40px -24px rgba(43,38,32,.75), 0 2px 0 rgba(43,38,32,.12)", "purpose": "The mega-menu stone slab lifted off the lintel." },
+      { "name": "relief-base", "value": "3px solid var(--stone-deep) border-bottom + inset 0 1px 0 rgba(255,252,240,.6), inset 0 -12px 22px -18px rgba(43,38,32,.6)", "purpose": "Signature stelae relief stones." },
+      { "name": "lintel-seat", "value": "0 1px 0 rgba(255,252,240,.5) inset, 0 8px 20px -18px rgba(43,38,32,.6)", "purpose": "Sticky navigation lintel." }
+    ],
+    "motion": [
+      { "name": "ease-stone", "value": "cubic-bezier(.16,1,.3,1)", "purpose": "The single easing curve for the whole world (--ease)." },
+      { "name": "state-fast", "value": "0.25s", "purpose": "Plaque and small state transitions." },
+      { "name": "state-base", "value": "0.35s", "purpose": "Reveals, relief hover, nav underline." },
+      { "name": "state-slow", "value": "0.4s", "purpose": "Doors and large surface transitions." },
+      { "name": "raking-light", "value": "scroll + pointer linked", "purpose": "The one authored moment: a raking light travels across the wall as the page is read." }
+    ],
+    "breakpoints": [
+      { "name": "nav-drawer", "value": "1080px" },
+      { "name": "frieze-fold", "value": "1000px" },
+      { "name": "grid-collapse", "value": "900px" },
+      { "name": "doors-fold", "value": "800px" },
+      { "name": "compact", "value": "640px" },
+      { "name": "tablets-single", "value": "560px" },
+      { "name": "doors-single", "value": "520px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Plaque",
+      "kind": "button",
+      "refersTo": "plaque",
+      "description": "The primary action — a bronze plaque pressed into the stone, uppercase and tracked.",
+      "html": "<a class=\"ds-plaque\" href=\"#\">Partner With Us</a>",
+      "css": ".ds-plaque { display: inline-flex; align-items: center; gap: .5rem; font-family: 'Archivo', system-ui, sans-serif; font-size: .72rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; text-decoration: none; padding: .92rem 1.5rem; border-radius: 2px; color: #fbf5e6; background: linear-gradient(180deg, #7a5828, #5c4220 52%, #432f18); border: 1px solid #38260f; box-shadow: inset 0 1px 0 rgba(255,236,200,.35), inset 0 -2px 4px rgba(20,12,4,.5), 0 2px 5px rgba(43,38,32,.3); transition: transform .25s cubic-bezier(.16,1,.3,1), filter .25s cubic-bezier(.16,1,.3,1), box-shadow .25s cubic-bezier(.16,1,.3,1); cursor: pointer; } .ds-plaque:hover { transform: translateY(-1px); filter: brightness(1.09); box-shadow: inset 0 1px 0 rgba(255,230,180,.7), inset 0 -2px 4px rgba(30,20,8,.45), 0 5px 12px rgba(43,38,32,.34); } .ds-plaque:focus-visible { outline: 2px solid #7c9c82; outline-offset: 2px; } .ds-plaque:active { transform: translateY(0); }"
+    },
+    {
+      "name": "Plaque Ghost",
+      "kind": "button",
+      "refersTo": "plaque-ghost",
+      "description": "The secondary path — a limewash-tinted stone face with an ink hairline.",
+      "html": "<a class=\"ds-plaque-ghost\" href=\"#\">Explore the Group</a>",
+      "css": ".ds-plaque-ghost { display: inline-flex; align-items: center; gap: .5rem; font-family: 'Archivo', system-ui, sans-serif; font-size: .72rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; text-decoration: none; padding: .92rem 1.5rem; border-radius: 2px; color: #2b2620; background: linear-gradient(180deg, rgba(255,250,235,.28), rgba(255,250,235,.05)); border: 1px solid rgba(43,38,32,.4); box-shadow: inset 0 1px 0 rgba(255,252,240,.6), inset 0 -1px 2px rgba(43,38,32,.18); transition: background .25s cubic-bezier(.16,1,.3,1); cursor: pointer; } .ds-plaque-ghost:hover { background: linear-gradient(180deg, rgba(255,250,235,.5), rgba(255,250,235,.16)); } .ds-plaque-ghost:focus-visible { outline: 2px solid #7c9c82; outline-offset: 2px; }"
+    },
+    {
+      "name": "Badge",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Development-stage chip seated in verdigris; carries stage only, never an unverified fact.",
+      "html": "<span class=\"ds-badge\">Investment Ready</span>",
+      "css": ".ds-badge { display: inline-block; font-family: 'Archivo', system-ui, sans-serif; font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; color: #f3edda; background: #35503f; padding: .3rem .6rem; border-radius: 2px; }"
+    },
+    {
+      "name": "Cartouche",
+      "kind": "card",
+      "refersTo": "cartouche",
+      "description": "A recessed stone card. Unverified values appear as an empty slot, never a fabricated figure.",
+      "html": "<figure class=\"ds-cartouche\"><span class=\"ds-cartouche-slot\"></span><p>Nigeria</p><small>Presence to be confirmed</small></figure>",
+      "css": ".ds-cartouche { position: relative; margin: 0; padding: 1.5rem 1.6rem; border: 1px solid rgba(43,38,32,.3); border-radius: 3px; background: linear-gradient(180deg, color-mix(in srgb, #f3edda 65%, #ded2b8), #ded2b8); box-shadow: inset 0 2px 6px rgba(43,38,32,.14), inset 0 1px 0 rgba(255,252,240,.6); } .ds-cartouche-slot { display: block; width: 60%; height: 30px; margin-bottom: 1rem; border-radius: 2px; background: linear-gradient(180deg, rgba(43,38,32,.11), rgba(43,38,32,.03)); border-bottom: 1px dashed rgba(43,38,32,.4); } .ds-cartouche p { margin: 0; font-family: 'Archivo', system-ui, sans-serif; font-size: .9rem; color: #3a342b; font-weight: 600; } .ds-cartouche small { font-size: .78rem; color: #4c443a; font-style: italic; }"
+    },
+    {
+      "name": "Newsletter Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "The footer subscribe field on the dark floor; limewash text on night with a verdigris focus ring.",
+      "html": "<form class=\"ds-sub\"><span>Newsletter</span><input type=\"email\" placeholder=\"you@organisation.com\" aria-label=\"Email address\"><button class=\"ds-sub-btn\" type=\"submit\">Subscribe</button></form>",
+      "css": ".ds-sub { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; } .ds-sub span { flex-basis: 100%; font-family: 'Archivo', system-ui, sans-serif; font-size: .7rem; letter-spacing: .2em; text-transform: uppercase; color: #a87c40; } .ds-sub input { font-family: 'Archivo', system-ui, sans-serif; font-size: .82rem; padding: .7rem .9rem; min-width: 200px; flex: 1 1 200px; color: #f3edda; background: #211e1a; border: 1px solid rgba(255,255,255,.18); border-radius: 2px; } .ds-sub input::placeholder { color: #ab9d82; } .ds-sub input:focus-visible { outline: 2px solid #7c9c82; outline-offset: 2px; } .ds-sub-btn { font-family: 'Archivo', system-ui, sans-serif; font-size: .72rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; padding: .7rem 1.2rem; border: 0; border-radius: 2px; color: #fbf5e6; background: linear-gradient(180deg, #7a5828, #5c4220 52%, #432f18); cursor: pointer; }"
+    },
+    {
+      "name": "Nav Link",
+      "kind": "nav",
+      "refersTo": "nav__link",
+      "description": "Uppercase lintel navigation with a bronze underline scaling from the left.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-link\" href=\"#\">Businesses</a></nav>",
+      "css": ".ds-nav { display: inline-flex; } .ds-nav-link { position: relative; display: inline-block; font-family: 'Archivo', system-ui, sans-serif; font-size: .74rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: #3a342b; text-decoration: none; padding: .65rem .7rem; border-radius: 2px; transition: color .2s cubic-bezier(.16,1,.3,1); } .ds-nav-link::after { content: \"\"; position: absolute; left: .7rem; right: .7rem; bottom: .38rem; height: 1px; background: #7e5c2e; transform: scaleX(0); transform-origin: left; transition: transform .3s cubic-bezier(.16,1,.3,1); } .ds-nav-link:hover { color: #2b2620; } .ds-nav-link:hover::after, .ds-nav-link:focus-visible::after { transform: scaleX(1); } .ds-nav-link:focus-visible { outline: 2px solid #7c9c82; outline-offset: 2px; }"
+    },
+    {
+      "name": "Stelae Relief",
+      "kind": "custom",
+      "description": "The signature sector stone: an authored line-relief, name, definition and Roman index on a stepped rail; lifts on hover.",
+      "html": "<article class=\"ds-stelae\"><span class=\"ds-stelae-relief\"><svg viewBox=\"0 0 42 42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"><path d=\"M21 3c9 0 15 6 15 14 0 9-8 13-15 22-7-9-15-13-15-22 0-8 6-14 15-14z\"/><path d=\"M21 12v14M15 18h12\"/></svg></span><span class=\"ds-stelae-idx\">I</span><span class=\"ds-stelae-name\">WATER</span><span class=\"ds-stelae-line\">Treatment, storage and intelligent distribution.</span></article>",
+      "css": ".ds-stelae { position: relative; display: flex; flex-direction: column; gap: .7rem; padding: 2.4rem 1rem 1.6rem; min-height: 320px; border: 1px solid rgba(43,38,32,.16); border-bottom: 3px solid #b9a982; background: linear-gradient(180deg, color-mix(in srgb, #f3edda 60%, #ded2b8), #ded2b8); transition: background .35s cubic-bezier(.16,1,.3,1), border-color .35s cubic-bezier(.16,1,.3,1), transform .35s cubic-bezier(.16,1,.3,1); } .ds-stelae::before { content: \"\"; position: absolute; inset: 0; pointer-events: none; box-shadow: inset 0 1px 0 rgba(255,252,240,.6), inset 0 -12px 22px -18px rgba(43,38,32,.6); } .ds-stelae:hover { transform: translateY(-6px); border-bottom-color: #7e5c2e; background: linear-gradient(180deg, #f3edda, #ded2b8); } .ds-stelae-relief { color: #4c443a; margin-bottom: auto; transition: color .3s cubic-bezier(.16,1,.3,1); } .ds-stelae-relief svg { width: 42px; height: 42px; } .ds-stelae:hover .ds-stelae-relief { color: #4e6b57; } .ds-stelae-idx { font-family: 'Forum', Georgia, serif; font-size: .72rem; letter-spacing: .2em; color: #543d1e; margin-top: .6rem; } .ds-stelae-name { font-family: 'Archivo', system-ui, sans-serif; font-weight: 600; font-size: .82rem; line-height: 1.3; letter-spacing: .02em; color: #2b2620; } .ds-stelae-line { font-size: .78rem; color: #4c443a; transition: color .35s cubic-bezier(.16,1,.3,1); } .ds-stelae:hover .ds-stelae-line { color: #2b2620; }"
+    },
+    {
+      "name": "Gateway Door",
+      "kind": "custom",
+      "description": "A dark gateway tile that swings to verdigris with an authored SVG arrow; the three paths of the partnership CTA.",
+      "html": "<a class=\"ds-door\" href=\"#\"><span>Partner With Us</span></a>",
+      "css": ".ds-door { position: relative; overflow: hidden; display: flex; align-items: flex-end; text-decoration: none; color: #f3edda; padding: 2.4rem 1.6rem; min-height: 130px; font-family: 'Forum', Georgia, serif; font-size: 1.2rem; background: #201d1a; transition: background .4s cubic-bezier(.16,1,.3,1), color .4s cubic-bezier(.16,1,.3,1), padding-left .4s cubic-bezier(.16,1,.3,1); } .ds-door::after { content: \"\"; position: absolute; top: 1.55rem; right: 1.4rem; width: 22px; height: 16px; background: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='16' viewBox='0 0 22 16' fill='none' stroke='%237c9c82' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2 8h17M13 2l6 6-6 6'/%3E%3C/svg%3E\") center/contain no-repeat; opacity: 0; transform: translateX(-6px); transition: opacity .35s cubic-bezier(.16,1,.3,1), transform .35s cubic-bezier(.16,1,.3,1); } .ds-door:hover, .ds-door:focus-visible { background: linear-gradient(180deg, #35503f, #26402f); padding-left: 2.1rem; } .ds-door:hover::after, .ds-door:focus-visible::after { opacity: 1; transform: none; } .ds-door:focus-visible { outline: 2px solid #7c9c82; outline-offset: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Foundation Stone",
+    "overview": "Waterlight Group is an institution incised into water-formed stone. The surface is a wall of travertine laid by sediment: layered stone grounds, chiselled V-cut lettering, bronze plaques pressed into the rock as the actions, and verdigris on the fittings that carry status. Nothing is painted on top of the stone; everything is cut into it and read back by a single raking light that travels across the wall as the visitor descends. Depth is letterpress, not glow.\n\nThe system is deliberately sober because its audience is sober: institutional investors, development-finance institutions and family offices performing a first-contact read. Trust is earned by restraint and by honesty — every figure that is not yet verified appears as an empty cartouche or a marked placeholder, never as an invented number. Density is paced like a quarry face: a monumental opening, then a dense sector relief, then a shadowed band that dramatises the process, then a calm close.",
+    "keyCharacteristics": [
+      "Stone grounds (warm travertine) with two metal voices: bronze for actions, verdigris for status and focus.",
+      "Full-bleed dark bands (night quarry) as regions, never as accents.",
+      "Incised type: emphasis through carve, light and scale — never gradient fill.",
+      "Squared, chiselled geometry: 1px hairlines, incised seams, 2–3px radii only.",
+      "One authored motion system: a raking light, plus a paced reveal; no scattered effects."
+    ],
+    "rules": [
+      { "name": "The Tinted-From-The-Stone Rule", "body": "Secondary text on a dark or metal surface is tinted from that surface's own hue (Night Ink on night bands, bronze on metal) — never a neutral gray. Gray is the tell of an assembled page.", "section": "colors" },
+      { "name": "The Verified Rule", "body": "Color never signals a fact that is not yet verified. No green \"operating presence\" is shown for a market without approved activity.", "section": "colors" },
+      { "name": "The Incised Rule", "body": "Emphasis comes from carve and light, not fill. Large headings use the .carve-deep treatment (a light top edge and a dark under-shadow). Gradient text is never used.", "section": "typography" },
+      { "name": "The Label Floor", "body": "No uppercase label drops below 0.7rem and no body copy below 0.8rem.", "section": "typography" },
+      { "name": "The Raking Light Rule", "body": "There is one light source, and it moves across the wall once as the page is read (the .rake overlay follows scroll and pointer). Depth, hover lift and the reveal all answer to it. No element introduces its own independent glow.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use a bronze plaque for every primary action, uppercase, 0.16em tracking, 2px radius.",
+      "Do keep all grounds within the travertine stone family; reserve full-bleed night bands for the process section and the closing gateway.",
+      "Do tint secondary text from its surface (Night Ink on night, bronze on metal) — never gray.",
+      "Do express depth as letterpress: inset highlight over inset shadow, offset + soft blur.",
+      "Do show every unverified figure as an empty cartouche or a marked placeholder.",
+      "Do draw icons as authored line SVG in one consistent thin stroke.",
+      "Do theme browser surfaces from the palette: focus ring and selection in verdigris, scrollbar thumb in stone-deep, caret in verdigris."
+    ],
+    "donts": [
+      "Don't add a kicker or eyebrow above a heading; the heading carries its own weight.",
+      "Don't use gradient text — emphasis is carve, weight or scale.",
+      "Don't use hard offset block shadows or zero-offset coloured halos.",
+      "Don't use Unicode glyphs or emoji as icons; draw the mark as SVG.",
+      "Don't exceed a 3px radius, and don't introduce rounded-UI geometry.",
+      "Don't claim presence, partnerships or outcomes before they are verified; leave the placeholder.",
+      "Don't scatter hover effects; motion belongs to the one raking light and the paced reveal."
+    ]
+  }
+}

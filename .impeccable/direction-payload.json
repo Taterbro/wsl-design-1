@@ -1,0 +1,211 @@
+{
+  "title": "Choose the visual world",
+  "question": "The roll assigned The Foundation Stone. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Foundation Stone",
+      "kicker": "THE ROLL",
+      "lineage": "institutional lobbies, cornerstones & spring-formed travertine",
+      "thesis": "An institution incised into water-formed stone — permanence read by light and shadow.",
+      "palette": ["#E6DCC6", "#C9B99B", "#2A2621", "#7E5C2E", "#4E6B57"],
+      "materials": ["travertine", "patinated bronze", "raking light"],
+      "viewport": "A full-bleed travertine wall; the headline cut as a V-groove the raking sun reveals, three bronze plaques as the actions.",
+      "risk": "Stone turns mausoleum if the light never moves — it must stay warm and alive.",
+      "raised": [
+        { "from": "challenger-shell", "raise": "One continuous carved datum line generates the whole composition." },
+        { "from": "challenger-minihompy", "raise": "The page is one persistent stone wall, not stacked bands." },
+        { "from": "challenger-grid", "raise": "The active section lights along its full carved span." }
+      ],
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "carved lintel nav", "x": 0, "y": 0, "w": 12, "h": 1 },
+          { "label": "raking-lit inscription", "x": 1, "y": 2, "w": 8, "h": 3, "accent": true },
+          { "label": "bronze plaques", "x": 1, "y": 6, "w": 6, "h": 1 },
+          { "label": "carved sector reliefs", "x": 0, "y": 8, "w": 12, "h": 2 }
+        ]
+      }
+    },
+    {
+      "id": "model-pick",
+      "label": "The Cadastral Survey",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "surveyor's linen & triangulated cadastral plans",
+      "thesis": "Africa plotted to survey — every market a measured claim, its truth in the legend.",
+      "palette": ["#EFE9DA", "#6F7D5A", "#B07A3C", "#2E3A44", "#A23B2E"],
+      "materials": ["drafting linen", "triangulation linework", "terrain tint bands"],
+      "viewport": "A full-bleed survey sheet: the headline as a title block, the world as a triangulated plot, the legend as navigation.",
+      "risk": "Also where a data-forward run in this category lands — familiar map grammar.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "title block nav", "x": 0, "y": 0, "w": 12, "h": 1 },
+          { "label": "plotted map", "x": 6, "y": 1, "w": 6, "h": 9, "accent": true },
+          { "label": "surveyed thesis", "x": 0, "y": 2, "w": 5, "h": 4 },
+          { "label": "legend", "x": 0, "y": 8, "w": 5, "h": 2 }
+        ]
+      }
+    },
+    {
+      "id": "challenger-neon",
+      "label": "Hand-Bent Neon Circuit",
+      "verdict": "competitive",
+      "lineage": "hand-bent neon glass signage",
+      "thesis": "The networks as one continuous glass stroke that ignites — water and power drawn as a lit circuit.",
+      "palette": ["#0E1116", "#2B6CFF", "#FF5A3C", "#9FB4C0"],
+      "materials": ["hand-bent glass tube", "gas discharge", "dark room"],
+      "viewport": "A dark wall where a single unbroken tube bends into the headline and one word ignites cobalt.",
+      "risk": "Neon reads nightlife, not institutional due diligence.",
+      "case": "Fuses cleanly with Waterlight's water-and-power story and a continuous-network thesis; loses on institutional tone.",
+      "kept": "When the room goes dark, one active run ignites.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "nav", "x": 0, "y": 0, "w": 12, "h": 1 },
+          { "label": "bent-tube wordmark", "x": 1, "y": 3, "w": 10, "h": 4, "accent": true },
+          { "label": "igniting run", "x": 1, "y": 8, "w": 10, "h": 1 }
+        ]
+      }
+    },
+    {
+      "id": "challenger-nixie",
+      "label": "Laboratory Counter",
+      "verdict": "competitive",
+      "lineage": "nixie-tube laboratory instruments",
+      "thesis": "Verified figures as physical, layered numerals — honest counts, never animated theatre.",
+      "palette": ["#14161A", "#FF7A1A", "#C9CDD2"],
+      "materials": ["glass envelopes", "blackened steel", "plasma digit glow"],
+      "viewport": "A black steel instrument panel, the Africa-is-Now indicators glowing in stacked tube banks.",
+      "risk": "An instrument the audience operates, not capital it reads.",
+      "case": "Serves the verified-indicators and impact sections with literal honesty; narrow as a whole-page frame.",
+      "kept": "Numbers as physical, depth-true objects.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "nav", "x": 0, "y": 0, "w": 12, "h": 1 },
+          { "label": "headline", "x": 1, "y": 2, "w": 6, "h": 2 },
+          { "label": "tube-bank indicators", "x": 7, "y": 2, "w": 5, "h": 6, "accent": true }
+        ]
+      }
+    },
+    {
+      "id": "challenger-dubois",
+      "label": "The Data Portraits",
+      "verdict": "competitive",
+      "lineage": "the 1900 Du Bois data portraits",
+      "thesis": "Hard statistics drawn as unapologetic graphic argument — Africa stated, not asserted.",
+      "palette": ["#E8DFC8", "#A31E22", "#C9A227", "#1B1B18", "#1F5C3A"],
+      "materials": ["hand-inked chart board", "flat saturated colour", "lettered small caps"],
+      "viewport": "A cream board where the thesis is a hand-inked plateau chart, its caption lettered beneath.",
+      "risk": "Its charts carry the data sections but not the portfolio or the routing.",
+      "case": "Maximum African-founded identification and bold statistical argument; strongest on the data surfaces, thin as a whole-page frame.",
+      "kept": "Total commitment to chart-as-argument.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "nav", "x": 0, "y": 0, "w": 12, "h": 1 },
+          { "label": "lettered headline", "x": 1, "y": 1, "w": 10, "h": 2 },
+          { "label": "plate chart", "x": 1, "y": 3, "w": 7, "h": 5, "accent": true },
+          { "label": "caption", "x": 1, "y": 8, "w": 7, "h": 1 }
+        ]
+      }
+    },
+    {
+      "id": "challenger-shell",
+      "label": "Curved-Crease Shell",
+      "verdict": "declined",
+      "lineage": "deployable curved-crease paper shells",
+      "thesis": "One crease turns a flat sheet into a load-bearing shell — capital as structure.",
+      "palette": ["#F3EAD8", "#2A2A2A", "#B9B2A4"],
+      "materials": ["cotton paper", "compass arc", "graphite shadow"],
+      "viewport": "A cream disc lifts along one charcoal arc into a saddle that carries the headline.",
+      "risk": "Reads as origami craft, not institutional capital.",
+      "case": "Fuses poorly: investors do not identify with paper engineering.",
+      "kept": "One structural gesture generates the whole composition.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "nav", "x": 0, "y": 0, "w": 12, "h": 1 },
+          { "label": "creased shell", "x": 2, "y": 2, "w": 8, "h": 6, "accent": true }
+        ]
+      }
+    },
+    {
+      "id": "challenger-minihompy",
+      "label": "The Minihompy",
+      "verdict": "declined",
+      "lineage": "Cyworld minihompy rooms",
+      "thesis": "One furnishable room as the whole identity — a surface you arrange and revisit.",
+      "palette": ["#F2D9E0", "#BFE3D0", "#7A6C9B", "#FFFFFF"],
+      "materials": ["isometric room", "sticker furnishings", "soft outlines"],
+      "viewport": "An isometric room whose furnishings are the portfolio, counters as small honest chrome.",
+      "risk": "Reads as social nostalgia, not an investment platform.",
+      "case": "Fuses poorly: no institutional investor identifies here.",
+      "kept": "The whole identity is one persistent surface, furnished.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "nav", "x": 0, "y": 0, "w": 12, "h": 1 },
+          { "label": "isometric room", "x": 2, "y": 1, "w": 8, "h": 7, "accent": true },
+          { "label": "diary column", "x": 10, "y": 1, "w": 2, "h": 7 }
+        ]
+      }
+    },
+    {
+      "id": "challenger-grid",
+      "label": "Grid Horizon Sunset",
+      "verdict": "declined",
+      "lineage": "retro synth cover art",
+      "thesis": "Markets on one horizon the grid keeps arriving underneath — capital moving forward.",
+      "palette": ["#3A1E6E", "#E23A6B", "#2BD2E0", "#0A0A14"],
+      "materials": ["wireframe grid", "banded sun", "extruded lettering"],
+      "viewport": "A cyan grid runs to a striped sun on the horizon, the title extruded above it.",
+      "risk": "Reads as retro novelty against institutional restraint.",
+      "case": "Fuses poorly: nostalgia conflicts with due-diligence seriousness.",
+      "kept": "The active row lights along its full width.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "nav", "x": 0, "y": 0, "w": 12, "h": 1 },
+          { "label": "banded sun", "x": 3, "y": 2, "w": 6, "h": 2, "accent": true },
+          { "label": "receding grid", "x": 0, "y": 6, "w": 12, "h": 4 }
+        ]
+      }
+    }
+  ],
+  "reroll": {
+    "registers": ["safer", "bolder"]
+  },
+  "buildPath": {
+    "value": "code"
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "What an institutional investment platform ships, executed impeccably.",
+    "palette": ["#FFFFFF", "#0F1B2D", "#2F6DB0", "#8A8F98"],
+    "materials": ["clean grid", "skyline photography", "restrained blue"],
+    "viewport": "Photographic hero, logo row, business cards, insights grid — the expected arrangement at full craft.",
+    "risk": "Indistinguishable from the competition by design.",
+    "wireframe": {
+      "cols": 12,
+      "rows": 10,
+      "regions": [
+        { "label": "nav", "x": 0, "y": 0, "w": 12, "h": 1 },
+        { "label": "photo hero", "x": 0, "y": 1, "w": 12, "h": 4, "accent": true },
+        { "label": "logo row", "x": 1, "y": 5, "w": 10, "h": 1 },
+        { "label": "business cards", "x": 1, "y": 6, "w": 10, "h": 3 }
+      ]
+    }
+  },
+  "steer": true
+}
